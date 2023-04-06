@@ -157,12 +157,12 @@ export const Chat: FC<Props> = memo(
         {!(apiKey || serverSideApiKeyIsSet) ? (
           <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
             <div className="text-center text-4xl font-bold text-black dark:text-white">
-              Welcome to Chatbot UI
+            欢迎使用 Gpt.aitools.chat
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
+              <div className="mb-8">{`Gpt.aitools.chat 致力于：让国人更方便的直连使用ChatGPT服务.`}</div>
               <div className="mb-2 font-bold">
-                Important: Chatbot UI is 100% unaffiliated with OpenAI.
+              现由艾兔思Aitools提供OPENAI API KEY
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
@@ -176,20 +176,20 @@ export const Chat: FC<Props> = memo(
               </div>
               <div className="mb-2">
                 {t(
-                  'Please set your OpenAI API key in the bottom left of the sidebar.',
+                  '请复制上面的API KEY 在左侧边栏左下角填写 OpenAI API KEY.',
                 )}
               </div>
               <div>
                 {t(
-                  "If you don't have an OpenAI API key, you can get one here: ",
+                  "如果想拥有自己独立 OpenAI API KEY，你可以在此学习获取：: ",
                 )}
                 <a
-                  href="https://platform.openai.com/account/api-keys"
+                  href="https://mp.weixin.qq.com/s?__biz=MzI0MjA2NjczMg==&mid=2247483870&idx=1&sn=eb075e95ab26fcbcb5cb82a57b87902c&chksm=e900b59dde773c8b0d632a026d2c0ba1cf40bd427dbbd28132e2ea6d858703718830f3633643&token=1059676204&lang=zh_CN#rd"
                   target="_blank"
                   rel="noreferrer"
                   className="text-blue-500 hover:underline"
                 >
-                  openai.com
+                  OPENAI API KEY 获取教程
                 </a>
               </div>
             </div>
