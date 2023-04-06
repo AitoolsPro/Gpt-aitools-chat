@@ -176,18 +176,13 @@ export const Chat: FC<Props> = memo(
                 )}
               </div>
               <div>
-                {t(
-                  "如果想拥有自己独立 OpenAI API KEY， ",
-                )}
-                <a
-                  href="https://mp.weixin.qq.com/s?__biz=MzI0MjA2NjczMg==&mid=2247483870&idx=1&sn=eb075e95ab26fcbcb5cb82a57b87902c&chksm=e900b59dde773c8b0d632a026d2c0ba1cf40bd427dbbd28132e2ea6d858703718830f3633643&token=1059676204&lang=zh_CN#rd"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-blue-500 hover:underline"
-                >
-                  获取 OPENAI API KEY 教程
-                </a>
-              </div>
+  {t("拥有自己独立 OpenAI API KEY ")}
+  <br/>
+  <a href="https://mp.weixin.qq.com/s?__biz=MzI0MjA2NjczMg==&mid=2247483870&idx=1&sn=eb075e95ab26fcbcb5cb82a57b87902c&chksm=e900b59dde773c8b0d632a026d2c0ba1cf40bd427dbbd28132e2ea6d858703718830f3633643&token=1059676204&lang=zh_CN#rd" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">
+    获取 OPENAIAPIKEY 教程
+  </a>
+</div>
+
             </div>
           </div>
         ) : modelError ? (
