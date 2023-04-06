@@ -177,19 +177,27 @@ export const Chat: FC<Props> = memo(
         </button>
       </div>
         </div>*/}
-    <div className="mb-2 relative" onClick={(e) => {
-  const el = e.currentTarget.querySelector('span');
-  if (el) {
-    navigator.clipboard.writeText(el.innerText);
-  }
-}}>
-  <span className="w-2/3 sm:w-auto truncate pr-2">
-    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
-  </span>
-  <button className="absolute top-0 right-0 px-2 py-1 rounded-md bg-gray-200 hover:bg-gray-300 text-gray-800 hover:text-gray-900">
-    Copy
-  </button>
+    <div className="mb-2">
+  <div className="flex flex-row justify-between w-full sm:w-auto">
+    <span className="w-2/3 sm:w-auto truncate pr-2">
+      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
+    </span>
+    <button
+      className="w-1/3 sm:w-auto whitespace-nowrap rounded-md bg-blue-600 hover:bg-blue-700 text-white font-medium px-3 py-1 transition duration-300 ease-in-out focus:outline-none"
+      onClick={() => {
+        const textArea = document.createElement("textarea");
+        textArea.value = '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';
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("copy");
+        textArea.remove();
+      }}
+    >
+      Copy
+    </button>
+  </div>
 </div>
+
 
 
 
