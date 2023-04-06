@@ -162,15 +162,15 @@ export const Chat: FC<Props> = memo(
             <div className="text-center text-lg text-black dark:text-white">
               <div className="mb-8">{`Gpt.aitools.chat 致力于：让国人更方便的直连使用ChatGPT服务`}</div>
               <div className="mb-2 font-bold">
-                如有使用问题，可关注微信公众号：艾兔思Aitools ，进Ai交流群咨询
+              现由艾兔思Aitools提供OPENAI API KEY
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
-                API key 默认由艾兔思aitools 提供，仅供研究学习使用，禁止滥用。如余额用完，没能及时更新，请进群告知客服更新。
+              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
               </div>
               <div className="mb-2">
-              艾兔思Aitools提供API KEY : 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
+               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
               </div>
               <div className="mb-2">
                 {t(
@@ -179,7 +179,7 @@ export const Chat: FC<Props> = memo(
               </div>
               <div>
                 {t(
-                  "如果你没有 OpenAI API KEY，你可以在此学习获取： ",
+                  "如果想拥有自己独立 OpenAI API KEY，你可以在此学习获取： ",
                 )}
                 <a
                   href="https://mp.weixin.qq.com/s?__biz=MzI0MjA2NjczMg==&mid=2247483870&idx=1&sn=eb075e95ab26fcbcb5cb82a57b87902c&chksm=e900b59dde773c8b0d632a026d2c0ba1cf40bd427dbbd28132e2ea6d858703718830f3633643&token=1059676204&lang=zh_CN#rd"
