@@ -166,9 +166,12 @@ export const Chat: FC<Props> = memo(
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
-              <div className="mb-2">
-              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
-              </div>
+            
+            
+            <div className="mb-2" style={{ whiteSpace: "pre-wrap" }}>
+  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
+</div>
+
              
               <div className="mb-2">
                 {t(
