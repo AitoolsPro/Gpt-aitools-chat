@@ -166,12 +166,15 @@ export const Chat: FC<Props> = memo(
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
-              <div className="mb-2">
-              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
-              </div>
-              <div className="mb-2">
-               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
-              </div>
+            <div className="text-center">
+  <div className="mb-2">
+    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
+  </div>
+  <div className="mb-2">
+    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
+  </div>
+</div>
+
               <div className="mb-2">
                 {t(
                   '请复制上面的API KEY 在左侧边栏左下角填写 OpenAI API KEY。',
