@@ -170,11 +170,11 @@ export const Chat: FC<Props> = memo(
                 API key 默认由艾兔思aitools 提供，仅供研究学习使用，禁止滥用。如余额用完，没能及时更新，请进群告知客服更新。
               </div>
               <div className="mb-2">
-              可设置自己的API KEY,建议填写自己的更加稳定。
+              艾兔思Aitools提供API KEY : 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
               </div>
               <div className="mb-2">
                 {t(
-                  '请在左侧边栏左下角设置您的 OpenAI API KEY。',
+                  '请复制上面的API KEY 在左侧边栏左下角填写 OpenAI API KEY。',
                 )}
               </div>
               <div>
