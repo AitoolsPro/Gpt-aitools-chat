@@ -157,18 +157,17 @@ export const Chat: FC<Props> = memo(
         {!(apiKey || serverSideApiKeyIsSet) ? (
           <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
             <div className="text-center text-4xl font-bold text-black dark:text-white">
-              Welcome to Gpt.aitools.chat
+              欢迎使用 Gpt.aitools.chat
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Gpt.aitools.chat is an open source clone of OpenAI's ChatGPT UI.`}</div>
+              <div className="mb-8">{`Gpt.aitools.chat 是由艾兔思Aitools导航论坛网提供的一个CHATGPT聊天网页机器人.`}</div>
               <div className="mb-2 font-bold">
-                Important: Gpt.aitools.chat is 100% unaffiliated with OpenAI.
+                如有使用问题，可关注微信公众号：艾兔思Aitools ，进Ai交流群咨询
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
-                Gpt.aitools.chat allows you to plug in your API key to use this UI
-                with their API.
+                API key 默认由艾兔思aitools 提供，仅供研究学习使用，禁止滥用。如余额用完，没能及时更新，可设置自己的API KEY,有KEY 建议填写自己的更加稳定。
               </div>
               <div className="mb-2">
                 It is <span className="italic">only</span> used to communicate
@@ -176,20 +175,20 @@ export const Chat: FC<Props> = memo(
               </div>
               <div className="mb-2">
                 {t(
-                  'Please set your OpenAI API key in the bottom left of the sidebar.',
+                  '请在侧边栏左下角设置您的 OpenAI API KEY。',
                 )}
               </div>
               <div>
                 {t(
-                  "If you don't have an OpenAI API key, you can get one here: ",
+                  "如果你没有 OpenAI API 密钥，你可以在此获取： ",
                 )}
                 <a
-                  href="https://platform.openai.com/account/api-keys"
+                  href="https://mp.weixin.qq.com/s?__biz=MzI0MjA2NjczMg==&mid=2247483870&idx=1&sn=eb075e95ab26fcbcb5cb82a57b87902c&chksm=e900b59dde773c8b0d632a026d2c0ba1cf40bd427dbbd28132e2ea6d858703718830f3633643&token=1059676204&lang=zh_CN#rd"
                   target="_blank"
                   rel="noreferrer"
                   className="text-blue-500 hover:underline"
                 >
-                  openai.com
+                  OPENAI APIkey 获取教程
                 </a>
               </div>
             </div>
