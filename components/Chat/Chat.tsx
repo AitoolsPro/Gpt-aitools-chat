@@ -157,47 +157,39 @@ export const Chat: FC<Props> = memo(
         {!(apiKey || serverSideApiKeyIsSet) ? (
           <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
             <div className="text-center text-4xl font-bold text-black dark:text-white">
-              欢迎使用 Gpt.aitools.chat
+              Welcome to Chatbot UI
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Gpt.aitools.chat 致力于：让国人更方便的直连使用ChatGPT服务`}</div>
+              <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
               <div className="mb-2 font-bold">
-              现由艾兔思Aitools提供OPENAI API KEY
+                Important: Chatbot UI is 100% unaffiliated with OpenAI.
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
-            <div className="flex flex-col justify-center sm:flex-row sm:space-x-4">
- {/*   <div className="mb-2">
-      <div className="flex flex-row justify-between w-full sm:w-auto">
-        <span className="w-2/3 sm:w-auto truncate pr-2">
-          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
-        </span>
-        <button className="w-1/3 sm:w-auto whitespace-nowrap rounded-md bg-blue-600 hover:bg-blue-700 text-white font-medium px-3 py-1 transition duration-300 ease-in-out focus:outline-none">
-          Copy
-        </button>
-      </div>
-        </div>*/}
-   
-
-
-
-
+              <div className="mb-2">
+                Chatbot UI allows you to plug in your API key to use this UI
+                with their API.
+              </div>
+              <div className="mb-2">
+                It is <span className="italic">only</span> used to communicate
+                with their API.
+              </div>
               <div className="mb-2">
                 {t(
-                  '请复制上面的API KEY 在左侧边栏左下角填写 OpenAI API KEY。',
+                  'Please set your OpenAI API key in the bottom left of the sidebar.',
                 )}
               </div>
               <div>
                 {t(
-                  "如果想拥有自己独立 OpenAI API KEY，你可以在此学习获取： ",
+                  "If you don't have an OpenAI API key, you can get one here: ",
                 )}
                 <a
-                  href="https://mp.weixin.qq.com/s?__biz=MzI0MjA2NjczMg==&mid=2247483870&idx=1&sn=eb075e95ab26fcbcb5cb82a57b87902c&chksm=e900b59dde773c8b0d632a026d2c0ba1cf40bd427dbbd28132e2ea6d858703718830f3633643&token=1059676204&lang=zh_CN#rd"
+                  href="https://platform.openai.com/account/api-keys"
                   target="_blank"
                   rel="noreferrer"
                   className="text-blue-500 hover:underline"
                 >
-                  OPENAI API KEY 获取教程
+                  openai.com
                 </a>
               </div>
             </div>
@@ -220,7 +212,7 @@ export const Chat: FC<Props> = memo(
                           <Spinner size="16px" className="mx-auto" />
                         </div>
                       ) : (
-                        'Gpt.aitools.chat'
+                        'Chatbot UI'
                       )}
                     </div>
 
