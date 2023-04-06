@@ -14,7 +14,7 @@
   "OR": "或",
   "Loading...": "加载中...",
   "Type a message or type \"/\" to select a prompt...": "输入一条消息或键入 \"/\" 以选择提示...",
-  "Error fetching models.": "获取模型时出错。",
+  "Error fetching models.": "获取API KEY时出错，请删除失效API KEY，重新填入正确的API KEY重试，其他问题关注微信公众号：艾兔思aitools ，进AI微信交流群咨询。",
   "AI": "AI",
   "You": "你",
   "Cancel": "取消",
