@@ -177,19 +177,7 @@ export const Chat: FC<Props> = memo(
         </button>
       </div>
         </div>*/}
-    <div className="mb-2 relative" onClick={(e) => {
-  const el = e.currentTarget.querySelector('span');
-  if (el) {
-    navigator.clipboard.writeText(el.innerText);
-  }
-}}>
-  <span className="w-2/3 sm:w-auto truncate pr-2">
-    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
-  </span>
-  <button className="absolute top-0 right-0 px-2 py-1 rounded-md bg-gray-200 hover:bg-gray-300 text-gray-800 hover:text-gray-900">
-    Copy
-  </button>
-</div>
+   
 
 
 
