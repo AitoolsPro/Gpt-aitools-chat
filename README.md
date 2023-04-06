@@ -1,10 +1,6 @@
 # Aitools GPT
 
-Aitools GPT is an advanced chatbot kit for OpenAI's chat models built on top of [Aitools GPT Lite](https://github.com/AitoolsPro/chatbot-ui-lite) using Next.js, TypeScript, and Tailwind CSS.
 
-
-
-![Aitools GPT](./public/screenshot.png)
 
 ## Updates
 
@@ -66,7 +62,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
 Pull from ghcr:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/AitoolsPro/chatbot-ui:main
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/AitoolsPro/Gpt.aitools.chat/tree:master
 ```
 
 ## Running Locally
