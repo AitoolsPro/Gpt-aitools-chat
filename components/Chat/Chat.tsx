@@ -167,13 +167,30 @@ export const Chat: FC<Props> = memo(
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
             <div className="text-center">
-  <div className="mb-2">
+  <div className="mb-2 relative">
+    <button
+      className="absolute top-0 right-0 px-2 py-1 rounded-md bg-gray-200 hover:bg-gray-300 text-gray-800 hover:text-gray-900"
+      onClick={() => {
+        navigator.clipboard.writeText('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');
+      }}
+    >
+      Copy
+    </button>
     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
   </div>
-  <div className="mb-2">
+  <div className="mb-2 relative">
+    <button
+      className="absolute top-0 right-0 px-2 py-1 rounded-md bg-gray-200 hover:bg-gray-300 text-gray-800 hover:text-gray-900"
+      onClick={() => {
+        navigator.clipboard.writeText('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');
+      }}
+    >
+      Copy
+    </button>
     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
   </div>
 </div>
+
 
               <div className="mb-2">
                 {t(
