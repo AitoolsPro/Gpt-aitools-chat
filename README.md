@@ -47,7 +47,7 @@ Modify the system prompt in `utils/index.ts`.
 
 Host your own live version of Gpt.aitools.chat with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAitoolsPro%2FGpt.aitools.chat)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAitoolsPro%2FGpt-aitools-chat)
 
 
 **Docker**
@@ -55,14 +55,14 @@ Host your own live version of Gpt.aitools.chat with Vercel.
 Build locally:
 
 ```shell
-docker build -t gpt.aitools.chat .
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 gpt.aitools.chat
+docker build -t gpt-aitools-chat .
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 gpt-aitools-chat
 ```
 
 Pull from ghcr:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/aitoolspro/gpt.aitools.chat:master
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/aitoolspro/gpt-aitools-chat:master
 ```
 
 ## Running Locally
@@ -70,7 +70,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/aitoolspro/gpt.aitool
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/aitoolspro/gpt.aitools.chat.git
+git clone https://github.com/aitoolspro/gpt-aitools-chat.git
 ```
 
 **2. Install Dependencies**
