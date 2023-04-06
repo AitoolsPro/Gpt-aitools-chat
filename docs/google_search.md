@@ -1,6 +1,6 @@
 # Google Search Tool
 
-Use the Google Search API to search the web in Aitools GPT.
+Use the Google Search API to search the web in Gpt.aitools.chat.
 
 ## How To Enable
 

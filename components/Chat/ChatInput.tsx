@@ -359,11 +359,11 @@ export const ChatInput: FC<Props> = ({
           rel="noreferrer"
           className="underline"
         >
-          Aitools GPT
+          Gpt.aitools.chat
         </a>
         .{' '}
         {t(
-          "Aitools GPT is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.",
+          "Gpt.aitools.chat is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.",
         )}
       </div>
     </div>

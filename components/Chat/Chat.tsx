@@ -157,17 +157,17 @@ export const Chat: FC<Props> = memo(
         {!(apiKey || serverSideApiKeyIsSet) ? (
           <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
             <div className="text-center text-4xl font-bold text-black dark:text-white">
-              Welcome to Aitools GPT
+              Welcome to Gpt.aitools.chat
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Aitools GPT is an open source clone of OpenAI's ChatGPT UI.`}</div>
+              <div className="mb-8">{`Gpt.aitools.chat is an open source clone of OpenAI's ChatGPT UI.`}</div>
               <div className="mb-2 font-bold">
-                Important: Aitools GPT is 100% unaffiliated with OpenAI.
+                Important: Gpt.aitools.chat is 100% unaffiliated with OpenAI.
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
-                Aitools GPT allows you to plug in your API key to use this UI
+                Gpt.aitools.chat allows you to plug in your API key to use this UI
                 with their API.
               </div>
               <div className="mb-2">
@@ -212,7 +212,7 @@ export const Chat: FC<Props> = memo(
                           <Spinner size="16px" className="mx-auto" />
                         </div>
                       ) : (
-                        'Aitools GPT'
+                        'Gpt.aitools.chat'
                       )}
                     </div>
 

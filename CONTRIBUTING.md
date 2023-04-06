@@ -1,5 +1,5 @@
 # Contributing Guidelines
-**Welcome to Aitools GPT!**
+**Welcome to Gpt.aitools.chat!**
 
 We appreciate your interest in contributing to our project.
 
