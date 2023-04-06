@@ -359,7 +359,7 @@ export const ChatInput: FC<Props> = ({
           rel="noreferrer"
           className="underline"
         >
-          Gpt.aitools.chat
+          艾兔思Aitools导航
         </a>
         .{' '}
         {t(
