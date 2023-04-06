@@ -160,7 +160,7 @@ export const Chat: FC<Props> = memo(
               欢迎使用 Gpt.aitools.chat
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Gpt.aitools.chat 是基于OPENAI CHATGPT 3.5模型，开发的一个网页聊天机器人`}</div>
+              <div className="mb-8">{`Gpt.aitools.chat 宗旨始于ChatGPT,胜于ChatGPT。让国人更方便的直连使用ChatGPT服务`}</div>
               <div className="mb-2 font-bold">
                 如有使用问题，可关注微信公众号：艾兔思Aitools ，进Ai交流群咨询
               </div>
@@ -174,12 +174,12 @@ export const Chat: FC<Props> = memo(
               </div>
               <div className="mb-2">
                 {t(
-                  '请在侧边栏左下角设置您的 OpenAI API KEY。',
+                  '请在左侧边栏左下角设置您的 OpenAI API KEY。',
                 )}
               </div>
               <div>
                 {t(
-                  "如果你没有 OpenAI API 密钥，你可以在此学习获取： ",
+                  "如果你没有 OpenAI API KEY，你可以在此学习获取： ",
                 )}
                 <a
                   href="https://mp.weixin.qq.com/s?__biz=MzI0MjA2NjczMg==&mid=2247483870&idx=1&sn=eb075e95ab26fcbcb5cb82a57b87902c&chksm=e900b59dde773c8b0d632a026d2c0ba1cf40bd427dbbd28132e2ea6d858703718830f3633643&token=1059676204&lang=zh_CN#rd"
@@ -187,7 +187,7 @@ export const Chat: FC<Props> = memo(
                   rel="noreferrer"
                   className="text-blue-500 hover:underline"
                 >
-                  OPENAI APIkey 获取教程
+                  OPENAI API KEY 获取教程
                 </a>
               </div>
             </div>
