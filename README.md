@@ -1,14 +1,14 @@
-# Chatbot UI
+# Aitools GPT
 
-Chatbot UI is an advanced chatbot kit for OpenAI's chat models built on top of [Chatbot UI Lite](https://github.com/mckaywrigley/chatbot-ui-lite) using Next.js, TypeScript, and Tailwind CSS.
+Aitools GPT is an advanced chatbot kit for OpenAI's chat models built on top of [Aitools GPT Lite](https://github.com/AitoolsPro/chatbot-ui-lite) using Next.js, TypeScript, and Tailwind CSS.
 
-See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
 
-![Chatbot UI](./public/screenshot.png)
+
+![Aitools GPT](./public/screenshot.png)
 
 ## Updates
 
-Chatbot UI will be updated over time.
+Aitools GPT will be updated over time.
 
 Expect frequent improvements.
 
@@ -49,13 +49,10 @@ Modify the system prompt in `utils/index.ts`.
 
 **Vercel**
 
-Host your own live version of Chatbot UI with Vercel.
+Host your own live version of Aitools GPT with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAitoolsPro%2Fchatbot-ui)
 
-**Replit**
-
-Fork Chatbot UI on Replit [here](https://replit.com/@MckayWrigley/chatbot-ui-pro?v=1).
 
 **Docker**
 
@@ -69,7 +66,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
 Pull from ghcr:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-ui:main
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/AitoolsPro/chatbot-ui:main
 ```
 
 ## Running Locally
@@ -77,7 +74,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git
+git clone https://github.com/AitoolsPro/chatbot-ui.git
 ```
 
 **2. Install Dependencies**
@@ -125,6 +122,6 @@ If you don't have an OpenAI API key, you can get one [here](https://platform.ope
 
 ## Contact
 
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/mckaywrigley).
+艾兔思Aitools-ai终极指南。让工具成为思维的延伸！ [艾兔思Ai导航论坛网](https://www.aitools.chat/).
 
 [GCSE]: https://developers.google.com/custom-search/v1/overview
