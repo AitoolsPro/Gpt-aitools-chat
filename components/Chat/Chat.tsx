@@ -178,31 +178,6 @@ export const Chat: FC<Props> = memo(
 </div>
 
 
-import { useCallback } from 'react';
-
-function copyToClipboard(text) {
-  const textarea = document.createElement('textarea');
-  textarea.value = text;
-  document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand('copy');
-  document.body.removeChild(textarea);
-}
-
-function CopyButton({ text }) {
-  const handleClick = useCallback(() => {
-    copyToClipboard(text);
-  }, [text]);
-
-  return (
-    <button
-      className="w-1/3 sm:w-auto whitespace-nowrap rounded-md bg-blue-600 hover:bg-blue-700 text-white font-medium px-3 py-1 transition duration-300 ease-in-out focus:outline-none"
-      onClick={handleClick}
-    >
-      Copy
-    </button>
-  );
-}
 
 
 
