@@ -167,7 +167,7 @@ export const Chat: FC<Props> = memo(
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
-              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
+              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
               </div>
               <div className="mb-2">
                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
