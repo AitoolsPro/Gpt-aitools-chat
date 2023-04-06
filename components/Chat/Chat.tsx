@@ -167,21 +167,9 @@ export const Chat: FC<Props> = memo(
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
             
-            
             <div className="mb-2">
-  <div className="flex flex-row justify-between w-full sm:w-auto">
-    <span className="w-2/3 sm:w-auto truncate pr-2">
-      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
-    </span>
-    <CopyButton text="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" />
-  </div>
-</div>
-
-
-
-
-
-
+              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
+              </div>
 
 
              
