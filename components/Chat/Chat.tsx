@@ -160,9 +160,9 @@ export const Chat: FC<Props> = memo(
             欢迎使用 Gpt.aitools.chat
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Gpt.aitools.chat 致力于：让国人更方便的直连使用ChatGPT服务.`}</div>
+              <div className="mb-8">{`更方便快捷，享用ChatGPT官方服务.`}</div>
               <div className="mb-2 font-bold">
-              现由艾兔思Aitools提供OPENAI API KEY
+              艾兔思Aitools提供OPENAI API KEY
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
