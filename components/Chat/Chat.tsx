@@ -171,10 +171,12 @@ export const Chat: FC<Props> = memo(
           
           
             <div className="mb-2">
-            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
+            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
               </div>
 
-
+              <div className="mb-2">
+              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
+              </div>
              
               <div className="mb-2">
                 {t(
