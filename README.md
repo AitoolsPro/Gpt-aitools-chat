@@ -66,7 +66,7 @@ git clone https://github.com/AitoolsPro/Gpt-aitools-chat.git
 2：进入仓库目录：
 cd Gpt-aitools-chat
 
-3:使用 Dockerfile 构建 Docker 镜像：
+3:使用 Dockerfile 构建 Docker 镜 像：
 docker build -t gpt-aitools-chat .
 
 4:运行 Docker 镜像：
