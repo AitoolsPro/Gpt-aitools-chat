@@ -59,7 +59,7 @@ docker build -t gpt-aitools-chat .
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 gpt-aitools-chat
 ```
 
-如果您想从 GitHub 仓库直接构建并运行 Docker 镜像，您可以 先克隆仓库，然后在本地构建镜像。请按照以下步骤操作：
+如果您想从 GitHub 仓库直接 构建并运行 Docker 镜像，您可以 先克隆仓库，然后在本地构建镜像。请按照以下步骤操作：
 1：在您的服务器上，克隆仓库：
 git clone https://github.com/AitoolsPro/Gpt-aitools-chat.git
 
